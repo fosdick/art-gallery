@@ -9,16 +9,16 @@ angular.module('app', ['app.filters', 'app.services', 'app.directives', 'app.con
     });
 
     $routeProvider.when('/', {
-      template: '/views/art.html',
+      template: 'views/art.html',
       title:'Home',
     });
-    
+
     $routeProvider.when('/bio', {
-      template: '/views/bio.html',
+      template: 'views/bio.html',
       title:'Bio'
     });
-    
+
     $routeProvider.otherwise({redirectTo: '/'});
-    
+
     $locationProvider.html5Mode(true);
   }]);
