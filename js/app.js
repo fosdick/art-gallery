@@ -14,7 +14,7 @@ angular.module('app', ['app.filters', 'app.services', 'app.directives', 'app.con
     });
 
     $routeProvider.when('/art-gallery', {
-      template: 'views/art.html',
+      template: 'art-gallery/views/art.html',
       title:'Home',
     });
 
