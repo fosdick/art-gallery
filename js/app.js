@@ -9,10 +9,10 @@ angular.module('app', ['app.filters', 'app.services', 'app.directives', 'app.con
     });
 
 
-    $routeProvider.when('/*', {
+    $routeProvider.when('/', {
       template: '/views/art.html',
       title:'Home',
-    });
+    }).otherwise({ redirectTo: 'art-gallery/' });;
 
 
     $routeProvider.otherwise({redirectTo: '/'});
