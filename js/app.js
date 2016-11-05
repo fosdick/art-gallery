@@ -8,10 +8,6 @@ angular.module('app', ['app.filters', 'app.services', 'app.directives', 'app.con
       account:'gigablox'
     });
 
-    $routeProvider.when('/', {
-      template: 'art-gallery/views/art.html',
-      title:'Home',
-    });
 
     $routeProvider.when('/art-gallery', {
       template: 'art-gallery/views/art.html',
