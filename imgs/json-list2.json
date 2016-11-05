@@ -16,16 +16,19 @@
 "in_gallery":false,"is_ad":false,
 
 "images":[
-  
+
   {"link":"art-gallery/imgs/04_tin-detail.jpg"},
   {"link" : "art-gallery/imgs/Jarvis1.JPG"},
+  {"link" : "art-gallery/imgs/IMG_2070.JPG"},
   {"link" : "art-gallery/imgs/Jarvis2.JPG"},
   {"link" : "art-gallery/imgs/quilt-1-2.jpg"},
   {"link" : "art-gallery/imgs/quilt-1.jpg"},
   {"link" : "art-gallery/imgs/quilt-2a.jpg"},
   {"link" : "art-gallery/imgs/quilt-3.jpg"},
+  {"link" : "art-gallery/imgs/IMG_2064.JPG"},
   {"link" : "art-gallery/imgs/quilt-9.jpg"},
   {"link" : "art-gallery/imgs/quilt-saudade.jpg"},
+  {"link" : "art-gallery/imgs/IMG_2060.JPG"},
   {"link" : "art-gallery/imgs/quilt.jpg"},
   {"link" : "art-gallery/imgs/01_fold1.jpg"},
   {"link" : "art-gallery/imgs/801.jpg"},
