@@ -77,6 +77,7 @@ angular.module('app.services', ['ngResource']).
           // });
           //When you are done, sync local array with cookie array.
           tagsNew = tags;
+          console.log(value);
           //Let the world know how much you rock.
           $rootScope.$broadcast('albumsUpdated');
         });
