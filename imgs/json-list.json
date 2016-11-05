@@ -1,0 +1,35 @@
+{"data":{"id":"dT8UY",
+"title":"Sci Fi and Fantasy Album Three",
+"description":null,"datetime":1374381770
+,"cover":"FYnAn8B",
+"cover_width":520,
+"cover_height":360,
+"account_url":"gigablox",
+"account_id":4509620
+,"privacy":"public",
+"layout":"grid",
+"views":0,
+"link":"http:\/\/imgur.com\/a\/dT8UY",
+"favorite":false
+,"nsfw":false,"section":"trees",
+"images_count":8,
+"in_gallery":false,"is_ad":false,
+
+"images":[
+  {"id":"C0eq1df"
+,"title":null,"description":null,"datetime":1374381350,
+"type":"image\/jpeg",
+"animated":false,"width"
+:983,
+"height":665,
+"size":96776,
+"views":4,
+"bandwidth":387104,
+"vote":null,"favorite":false,"nsfw":null
+,"section":null,"account_url":null,"account_id":null,"is_ad":false,"in_gallery":false
+,"link":"imgs/01_artlab-tin.jpg"}
+
+]
+
+},"success"
+:true,"status":200}
