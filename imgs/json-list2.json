@@ -16,21 +16,21 @@
 "in_gallery":false,"is_ad":false,
 
 "images":[
-  {"link":"imgs/01_artlab-tin.jpg"},
-  {"link":"imgs/01_tin-installation.JPG"},
-  {"link":"imgs/04_tin-detail.jpg"},
-  {"link" : "imgs/Jarvis1.JPG"},
-  {"link" : "imgs/Jarvis2.JPG"},
-  {"link" : "imgs/quilt-1-2.jpg"},
-  {"link" : "imgs/quilt-1.jpg"},
-  {"link" : "imgs/quilt-2a.jpg"},
-  {"link" : "imgs/quilt-3.jpg"},
-  {"link" : "imgs/quilt-9.jpg"},
-  {"link" : "imgs/quilt-saudade.jpg"},
-  {"link" : "imgs/quilt.jpg"},
-  {"link" : "imgs/rib-of-descartes.jpg"},
-  {"link" : "imgs/ritcher-installation.jpg"},
-  {"link" : "imgs/terpsichore-3.jpg"}
+  {"link":"art-gallery/art-gallery/imgs/01_artlab-tin.jpg"},
+  {"link":"art-gallery/imgs/01_tin-installation.JPG"},
+  {"link":"art-gallery/imgs/04_tin-detail.jpg"},
+  {"link" : "art-gallery/imgs/Jarvis1.JPG"},
+  {"link" : "art-gallery/imgs/Jarvis2.JPG"},
+  {"link" : "art-gallery/imgs/quilt-1-2.jpg"},
+  {"link" : "art-gallery/imgs/quilt-1.jpg"},
+  {"link" : "art-gallery/imgs/quilt-2a.jpg"},
+  {"link" : "art-gallery/imgs/quilt-3.jpg"},
+  {"link" : "art-gallery/imgs/quilt-9.jpg"},
+  {"link" : "art-gallery/imgs/quilt-saudade.jpg"},
+  {"link" : "art-gallery/imgs/quilt.jpg"},
+  {"link" : "art-gallery/imgs/rib-of-descartes.jpg"},
+  {"link" : "art-gallery/imgs/ritcher-installation.jpg"},
+  {"link" : "art-gallery/imgs/terpsichore-3.jpg"}
 ]
 
 },"success"
