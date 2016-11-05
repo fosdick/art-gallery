@@ -56,7 +56,7 @@ angular.module('imgur.album', ['imgur.global']).provider("$imgurAlbum", function
             $http.defaults.useXDomain = true;
             var options = this.options = mergeFilter({}, $imgurGlobal.imgurGlobal().returnOptions(), globalOptions, opts);
             this.options.albumList = (typeof this.options.albumList === 'string')?[this.options.albumList]:this.options.albumList;
-            this.call = $resource('imgs/json-list2.json',{},{
+            this.call = $resource('art-gallery/imgs/json-list2.json',{},{
                 get:{
                         headers:{'Authorization':'Client-ID '+ this.options.apiKey},
                         method:'GET'
@@ -113,7 +113,7 @@ angular.module('imgur.account', ['imgur.global']).provider("$imgurAccount", func
         function ImgurAccount(opts) {
             $http.defaults.useXDomain = true;
             var self = this, options = this.options = mergeFilter({}, $imgurGlobal.imgurGlobal().returnOptions(), globalOptions, opts);
-            this.call = $resource('imgs/json-list.json',{account:options.account},{
+            this.call = $resource('art-gallery/imgs/json-list.json',{account:options.account},{
                 get:{
                         method:'GET'
                     }
