@@ -5,7 +5,6 @@
         <div class="col col-lg-12">
             <h3>art works</h3>
             <div masonry>
-              {{albums}}
                 <div ng-repeat="album in albums">
                     <div class="masonry-brick" ng-repeat="image in album.images">
                         <img ng-src="{{image.link}}"/>

@@ -33,7 +33,6 @@ angular.module('app.controllers', []).
     //Listeners for updating values through $broadcast in a callback.
     $scope.$on('albumsUpdated',function(){
       $scope.albums = Albums.returnAlbumsFetched();
-      console.log($scope.albums);
     });
     // $scope.$on('albumsListUpdated',function(){
     //   $scope.albumsList = Albums.returnAlbumsList();
