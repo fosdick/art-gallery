@@ -19,19 +19,19 @@ angular.module('app.services', ['ngResource']).
 
     albums.updateSearch = function() {
       //Are there cookies set?
-      if($cookies.tags){
-        //Is user coming to the site with a URL?
-        if($location.search().tags){
-          //Replace cookies search parameters.
-          $cookies.tags = $location.search().tags;
-        }
-        else{
-          //Sync search with cookie.
-          $location.search({
-            tags:$cookies.tags
-          });
-        }
-      }
+      // if($cookies.tags){
+      //   //Is user coming to the site with a URL?
+      //   if($location.search().tags){
+      //     //Replace cookies search parameters.
+      //     $cookies.tags = $location.search().tags;
+      //   }
+      //   else{
+      //     //Sync search with cookie.
+      //     $location.search({
+      //       tags:$cookies.tags
+      //     });
+      //   }
+      //}
     };
 
     albums.toggle = function(id) {

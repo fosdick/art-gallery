@@ -8,12 +8,20 @@ angular.module('app', ['app.filters', 'app.services', 'app.directives', 'app.con
       account:'gigablox'
     });
 
-
     $routeProvider.when('/', {
-      template: '/views/art.html',
+      template: 'art-gallery/views/art.html',
       title:'Home',
-    }).otherwise({ redirectTo: 'art-gallery/' });;
+    });
 
+    $routeProvider.when('/art-gallery', {
+      template: 'art-gallery/views/art.html',
+      title:'Home',
+    });
+
+    $routeProvider.when('/bio', {
+      template: 'views/bio.html',
+      title:'Bio'
+    });
 
     $routeProvider.otherwise({redirectTo: '/'});
 
