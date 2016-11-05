@@ -65,7 +65,7 @@ angular.module('app.services', ['ngResource']).
         var imgurAlbum = $imgurAlbum.imgurAlbum({albumList:tags});
 
         imgurAlbum.getAlbum(function(value){
-          console.log(value);
+        //  console.log(value);
           albumsFetched.push(value[0]);
           // value.forEach(function(album){
           //   //Push new albums.
