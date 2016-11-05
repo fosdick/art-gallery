@@ -1,0 +1,6 @@
+[user]
+	name = Jarvis
+	eamil = jarvis@fastmail.fm
+	email = jarvis@fastmail.com
+[push]
+	default = simple
