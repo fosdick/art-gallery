@@ -10,7 +10,7 @@ angular.module('app', ['app.filters', 'app.services', 'app.directives', 'app.con
 
 
     $routeProvider.when('/*', {
-      template: 'art-gallery/views/art.html',
+      template: '/views/art.html',
       title:'Home',
     });
 
